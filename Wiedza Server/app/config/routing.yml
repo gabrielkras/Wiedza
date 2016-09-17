@@ -1,3 +1,7 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+wiedza:
+    resource: "@WiedzaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+api:
+    resource: "@ApiBundle/Resources/config/routing.yml"
+    prefix:   /api

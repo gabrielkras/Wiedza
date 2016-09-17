@@ -1,0 +1,3 @@
+wiedza_homepage:
+    path:     /
+    defaults: { _controller: WiedzaBundle:Default:index }
